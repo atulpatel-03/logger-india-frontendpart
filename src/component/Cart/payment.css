@@ -1,0 +1,30 @@
+.paymentContainer {
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 50vh;
+  margin: 2vmax;
+}
+
+
+.paymentFormBtn {
+  border: none;
+  background-color: rgba(55,101,154,255);
+  color: white;
+  font: 300 0.9vmax "Roboto";
+  width: 100%;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.paymentFormBtn:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+  .paymentContainer{
+    height: 10vh;
+  }
+}

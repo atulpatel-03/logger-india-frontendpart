@@ -1,0 +1,185 @@
+.contactContainer{
+   
+
+}
+
+.contact-header{
+    background: url("../../../images/contactUS2.png") no-repeat center center/cover;
+    text-align: center;
+    font-family: cursive;
+}
+
+.contact-header>h3{
+    color:white;
+    font-size: 2.5rem;
+    padding-top:3rem;
+    font-weight: 800;
+}
+
+.contact-header >p{
+    color: wheat;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+}
+
+.all-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-form-div{
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 40%;
+    border-radius: 22px;
+    padding: 2rem;
+    font-family: cursive;
+    
+}
+.contact-form-div> .headingForm{
+font-size: 1.7rem;
+font-weight: 500;
+color:#4F6286A8;
+}
+
+.detailsform> .form-group> label{
+    display: block;
+}
+.name-input-1,
+.name-input-2{
+    display: inline;
+    width: 40%;
+}
+
+.name-input-2{
+    margin-left: 1rem;
+}
+.contact-info-div{
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 40%;
+    border-radius: 22px;
+    padding: 2rem;
+   margin-left: 2rem;
+   font-family: cursive;
+   color: black;
+}
+
+.headingContact{
+ font-size: 2rem;
+    font-weight: 600;
+    color:#4F6286A8;
+  }
+  
+  .address,
+  .phone,
+  .mail{
+    display: flex;
+    padding-top: 1.5rem;
+  }
+  .address >i,
+  .phone >i,
+  .mail >i{
+    color:rgb(25, 197, 25);
+    font-size: 3rem;
+  }
+  
+  .address >div,
+  .phone >div,
+  .mail >div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    line-height: 0.5;
+  }
+  
+  .mail-body,
+  .address >div >a{
+    text-decoration: none;
+    color: gray;
+    line-height: 1;
+  }
+
+  .phone >div>div> a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 0rem;
+  }
+  
+  .address >div >a:hover{
+    color:skyblue;
+    text-decoration: none;
+  }
+
+  .phone >div>div> a:hover{
+    color:skyblue;
+    text-decoration: none;
+  }
+  .mail-body:hover{
+    text-decoration: none;
+    color:skyblue;
+  }
+
+  .follow-us{
+      font-size: 2.5rem;
+      margin-top: 2rem;
+  }
+.follow-us>h5{
+    font-size: 1.8rem;
+   font-family: cursive;
+    color:#4F6286A8;
+}
+  .contact-fb{
+      color: #4267B2;
+  }
+
+  .contact-tw{
+      color: #00acee;
+  }
+
+  .contact-in{
+      color:#bc2a8d;
+      padding-left: 1rem;
+  }
+  
+@media (max-width: 575.98px){
+.contact-form-div,
+.contact-info-div{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contact-info-div{
+    margin-left: 0rem;
+}
+ 
+
+.address >i,
+.phone >i,
+.mail >i{
+  font-size: 1.8rem;
+  padding-left: 1rem;
+}
+.address >div >h4,
+.phone >div >h4,
+.mail >div >h4{
+  font-size: 1.2rem;
+}
+.address >div,
+.phone >div,
+.mail >div{
+  line-height: 1;
+  padding-left: 0.5rem;
+}
+.address >div >a{
+  font-size: 0.6rem;
+}
+
+.all-detail{
+  padding: 0rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
+}
+}

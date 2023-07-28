@@ -1,0 +1,19 @@
+.virtual-div{
+ padding-bottom: 2rem;
+    border-top:1px solid rgba(0, 0, 0, 0.267);
+}
+
+.virtual-heading{
+    color:rgba(55,101,154,255);
+    text-align: center;
+    background-color: lightgray;
+    padding: 0.5rem;
+}
+
+.view-virtual{
+    text-align: center;
+    margin-top: 1rem;
+}
+.my-virtual-button{
+    background-color: tomato;
+}

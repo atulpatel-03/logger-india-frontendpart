@@ -1,0 +1,173 @@
+.footer-part{
+  background-color: #FAF9F6;
+ padding-top: 2rem;
+  font-family: sans-serif;
+  padding-bottom: 1rem !important;
+}
+
+
+.footer-main-div{
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 90%;
+  margin: auto;
+}
+
+.logo-part{
+  padding-top: 3rem;
+  padding-right: 2rem;
+}
+
+.logo-img{
+  height: 7rem;
+}
+
+.quick-links{
+  padding-right: 2rem;
+  text-align: center;
+  line-height: 3;
+}
+
+.home-link,
+.product-link,
+.contact-link{
+   color:black;
+   font-weight: 600;
+}
+.product-link{
+  display: block;
+}
+
+.our-policies{
+  background-color: transparent;
+  border:none;
+  color:black;
+  font-weight: 600;
+}
+
+.home-link:hover,
+.product-link:hover,
+.contact-link:hover{
+  text-decoration: none;
+}
+
+.quick-links >h3,
+.corporate-office >h3{
+  font-size: 2rem;
+ font-weight: 700;
+ color:grey;
+}
+
+.corporate-office{
+  width: 28%;
+  padding-right: 1rem;
+}
+
+.address-corporate{
+  color: darkblue;
+  line-height: 1.8;
+}
+.map-f{
+  color:green;
+  margin-right: 0.3rem;
+}
+
+.phone-f{
+  color:tomato;
+  margin-right: 0.3rem;
+}
+.phone-footer-no{
+  color: darkblue;
+}
+
+.mail-f{
+  color:darkgoldenrod;
+  margin-right: 0.3rem;
+}
+.contact-no-2,
+.contact-mail-2{
+  color: darkblue;
+  line-height: 3.5;
+}
+
+.address-corporate:hover,
+.contact-no-2:hover,
+.contact-mail-2:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.copy-right{
+  text-align: center;
+  margin-top: 2rem;
+  color: darkgray;
+}
+
+.full-map{
+  height: 15rem;
+  border: none;
+}
+@media (max-width: 575.98px){
+  .footer-main-div{
+    width: 98% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .logo-part{
+    padding: 0rem !important;
+    padding-bottom: 1rem !important;
+    align-self: center;
+  }
+  .logo-img{
+    height: 6rem;
+  }
+
+  .quick-links{
+    line-height: 2 !important;
+    padding-right: 0rem !important;
+  }
+
+  .corporate-office{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+
+  .quick-links>h3,
+  .corporate-office>h3{
+    font-size: 1.7rem;
+  }
+
+  .contact-no-2,
+.contact-mail-2{
+  color: darkblue;
+  line-height: 2 !important;
+}
+.map{
+  margin-top: 2rem ;
+  align-self: center !important;
+  
+}
+}
+
+@media (max-width: 991.98px){
+  .footer-main-div{
+    width: 100%;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+  .logo-img{
+    height: 3rem;
+  }
+  .full-map{
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .contact-no-2,
+  .contact-mail-2{
+    color: darkblue;
+    line-height: 1 !important;
+  }
+}

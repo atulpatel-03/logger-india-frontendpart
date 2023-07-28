@@ -1,0 +1,30 @@
+.terms-condition{
+    background-color: lightslategray;  
+    padding-bottom: 4rem;
+}
+
+.policy-heading{
+    color:white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.terms-detail{
+    background-color: white;
+    padding: 2rem;
+    padding-left: 8rem;
+    padding-right:8rem;
+}
+
+.div-heading{
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.terms-detail >p{
+    width: 100%;
+}

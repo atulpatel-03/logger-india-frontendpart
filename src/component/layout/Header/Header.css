@@ -1,0 +1,22 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 8vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.menuBurger{
+  height: 3.8rem !important;
+}
+
+@media screen and (max-width: 600px){
+  .menuBurger{
+    height: 2rem !important;
+    
+  }
+}

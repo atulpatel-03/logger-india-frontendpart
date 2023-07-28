@@ -1,0 +1,75 @@
+.my-navbar-2{
+    width: 90%;
+    margin: auto;
+    padding: 0rem;
+    padding-top: 0.5rem;
+}
+
+.contact-mail,
+.contact-no{
+    color: black;
+}
+
+.contact-no{
+    padding-left: 1rem;
+}
+.contact-no:hover{
+    text-decoration: none;
+}
+
+.gstin{
+    display: inline;
+    padding-left: 1rem;
+}
+.my-navbar{
+    background-color:transparent;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+    margin-top: 0rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+
+.logo{
+    width: 10rem;
+}
+
+.nav-link{
+    font-weight: 600;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.nav-link:hover{
+    color:rgba(55,101,154,255) !important;
+
+}
+
+.search-form{
+    padding-right: 0.5rem;
+}
+
+.onli-phone,
+.search-icon-phone{
+    display: none;
+}
+.sign-in-btn{
+
+    font-size: 1rem;
+    font-family: sans-serif;
+    
+}
+
+@media (max-width: 575.98px){
+    .my-navbar-2{
+        display: none;
+    }
+    .onli-phone,
+    .search-icon-phone{
+        display: inline;
+    }
+}

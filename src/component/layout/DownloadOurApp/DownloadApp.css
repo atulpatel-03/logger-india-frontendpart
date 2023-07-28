@@ -1,0 +1,71 @@
+.download-div{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    border-top:1px solid rgba(0, 0, 0, 0.267);
+}
+
+.heading-download{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 0px 0px 4px gray;
+}
+.download-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    justify-content: center;
+    
+}
+.download-main-div>div{
+    width: 30%;
+}
+
+.appstore:hover,
+.playstore:hover{
+    transition: linear all 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.appstore >img,
+.playstore >img{
+    height: 5rem;
+
+}
+
+.download-map{
+    font-size: 5rem;
+    color:green;
+}
+
+@media (max-width: 991.98px){
+    .appstore >img,
+.playstore >img{
+    height: 4rem;
+
+}
+.download-main-div>div{
+    width: 40%;
+}
+}
+
+@media (max-width: 575.98px){
+    .heading-download{
+        font-size: 1.7rem;
+        padding-top:1rem;
+    }
+    .appstore >img,
+    .playstore >img{
+        height: 2rem;
+    
+    }
+    .download-main-div{
+        width: 75%;
+    }
+    .download-main-div>div{
+        width: 50%;
+    }
+}

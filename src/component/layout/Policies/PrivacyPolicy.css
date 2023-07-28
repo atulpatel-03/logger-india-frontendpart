@@ -1,0 +1,50 @@
+.privacy-policy{
+    background-color: lightslategray;  
+    padding-bottom: 4rem;
+}
+
+.policy-heading{
+    color:white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.policy-detail{
+    background-color: white;
+    padding: 2rem;
+    padding-left: 5rem;
+    padding-right:5rem;
+
+}
+
+.statement{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.div-heading{
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.div-content{
+    padding-left: 1rem;
+}
+.div-content >p>span{
+    font-weight: 600;
+}
+
+.spacing-thing{
+    color:white;
+    height: 0.1rem;
+}
+
+@media (max-width: 575.98px){
+    .policy-detail{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
