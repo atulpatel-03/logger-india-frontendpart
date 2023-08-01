@@ -1,6 +1,8 @@
 import axios from "axios"
 import store from "../store"
 
+axios.defaults.withCredentials = true
+
 const api = axios.create({
   baseURL: "https://logger-india.onrender.com",
   headers: {
